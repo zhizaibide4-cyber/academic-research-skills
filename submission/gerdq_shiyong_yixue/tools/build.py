@@ -7,8 +7,13 @@ import sys
 
 from refs import REFS
 
+from pathlib import Path
+
 src, out = sys.argv[1], sys.argv[2]
 text = open(src, encoding="utf-8").read()
+TABLE_DIR = Path(__file__).resolve().parents[1] / "stats" / "output" / "tables"
+text = re.sub(r"\{\{TABLE:([^}]+)\}\}",
+              lambda m: (TABLE_DIR / f"{m.group(1)}.md").read_text(encoding="utf-8").strip(), text)
 order = []
 
 

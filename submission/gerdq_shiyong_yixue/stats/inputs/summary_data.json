@@ -1,0 +1,107 @@
+{
+  "_说明": "本文件逐项录入原稿（GerdQ量表在高原肥胖合并胃食管反流病的应用研究，PDF）已报告的汇总数据，是全部统计分析的唯一输入。'source'字段注明原稿出处，核对时请逐项对照原稿。未报告的数据一律未录入、未虚构。",
+
+  "N": 103,
+
+  "groups": {
+    "source": "原稿表1",
+    "names": ["轻度肥胖组", "中度肥胖组", "重度肥胖组"],
+    "n": [63, 26, 14],
+    "age_mean": [52.75, 53.27, 41.79], "age_sd": [11.09, 12.36, 11.88], "age_total": [51.39, 12.04], "age_H": 9.13, "age_P": 0.010,
+    "height_mean": [1.66, 1.67, 1.63], "height_sd": [0.06, 0.09, 0.08], "height_total": [1.66, 0.08], "height_H": 2.10, "height_P": 0.350,
+    "weight_mean": [79.61, 88.44, 102.46], "weight_sd": [6.32, 10.53, 13.05], "weight_total": [84.94, 11.66], "weight_H": 34.51, "weight_P": "<0.001",
+    "bmi_mean": [28.74, 31.59, 38.46], "bmi_sd": [0.54, 1.44, 3.36], "bmi_total": [30.78, 3.60], "bmi_H": 76.80, "bmi_P": "<0.001",
+    "male": [38, 13, 4], "male_chi2": 4.80, "male_P": 0.091,
+    "smoke_drink": [25, 7, 2], "smoke_drink_chi2": 3.92, "smoke_drink_P": 0.141,
+    "endo_abnormal": [25, 10, 4], "endo_abnormal_chi2": 0.61, "endo_abnormal_P": 0.738,
+    "ppi_test_pos": [34, 13, 10], "ppi_test_pos_chi2": 1.81, "ppi_test_pos_P": 0.404,
+    "gerd": [48, 20, 11], "gerd_chi2": 0.04, "gerd_P": 0.982,
+    "gerdq_median_q1_q3": [[9, 9, 11], [11, 10, 12.8], [9, 8, 11.5]], "gerdq_total_median_q1_q3": [10, 9, 12], "gerdq_H": 8.34, "gerdq_P": 0.016,
+    "gerdq4_mean": [5.97, 6.38, 6.21], "gerdq4_sd": [1.67, 2.14, 2.01], "gerdq4_total": [6.11, 1.84], "gerdq4_H": 1.36, "gerdq4_P": 0.506,
+    "wl_mean": [1.43, 2.06, 1.68], "wl_sd": [1.07, 1.28, 1.60], "wl_total": [1.62, 1.22], "wl_H": 4.51, "wl_P": 0.105
+  },
+
+  "general": {
+    "source": "原稿2.1节",
+    "age_range": [25, 80], "bmi_range": [28.03, 46.87],
+    "high_risk_job": 16, "gerd_composite": 79, "endo_abnormal": 39, "endo_neg_ppi_pos": 40, "ppi_test_pos_total": 57, "gerdq_ge8": 91
+  },
+
+  "items": {
+    "source": "原稿表2（0、1、2、3分的例数；均数、标准差；条目-总分Spearman相关）",
+    "order": ["烧心", "反流", "上腹痛", "恶心", "睡眠障碍", "额外服药"],
+    "negative_items": ["上腹痛", "恶心"],
+    "counts": {
+      "烧心": [0, 19, 53, 31], "反流": [0, 15, 41, 47], "上腹痛": [3, 20, 55, 25],
+      "恶心": [1, 25, 54, 23], "睡眠障碍": [22, 48, 23, 10], "额外服药": [56, 45, 2, 0]
+    },
+    "mean": {"烧心": 2.12, "反流": 2.31, "上腹痛": 1.99, "恶心": 1.96, "睡眠障碍": 1.20, "额外服药": 0.48},
+    "sd": {"烧心": 0.69, "反流": 0.71, "上腹痛": 0.75, "恶心": 0.71, "睡眠障碍": 0.89, "额外服药": 0.54},
+    "item_total_rs": {"烧心": 0.645, "反流": 0.677, "上腹痛": 0.309, "恶心": 0.397, "睡眠障碍": 0.508, "额外服药": 0.217},
+    "total_mean_sd": [10.06, 2.02], "total_range": [7, 14],
+    "cronbach_alpha_6": 0.281, "cronbach_alpha_4": 0.515,
+    "rs_heartburn_regurg": 0.635, "rs_epigastric_nausea": 0.290, "rs_neg_vs_pos_range": [-0.240, 0.113]
+  },
+
+  "obesity_comparison": {
+    "source": "原稿2.3节",
+    "pairwise_mild_moderate_U": 519, "pairwise_mild_moderate_Padj": 0.019,
+    "pairwise_mild_severe_Padj": 0.502, "pairwise_moderate_severe_Padj": 0.097,
+    "adj_moderate_vs_mild": [1.35, 0.46, 2.23, 0.003], "adj_severe_vs_mild": [0.19, -1.29, 1.68, 0.798],
+    "wald_F": 4.48, "wald_P": 0.014, "bmi_gerdq_rs": 0.103, "bmi_gerdq_P": 0.300
+  },
+
+  "diagnosis": {
+    "source": "原稿2.4节及表4",
+    "n_pos": 79, "n_neg": 24,
+    "median_pos": [11, 9, 12], "median_neg": [9, 8, 11], "U": 1330, "P": 0.003,
+    "auc": 0.701, "auc_ci": [0.580, 0.819],
+    "cutoffs": [8, 9, 10, 11, 12],
+    "sens": [93.7, 82.3, 62.0, 43.0, 34.2],
+    "spec": [29.2, 41.7, 70.8, 79.2, 87.5],
+    "ppv": [81.3, 82.3, 87.5, 87.2, 90.0],
+    "npv": [58.3, 41.7, 36.2, 29.7, 28.8],
+    "youden": [0.228, 0.239, 0.329, 0.222, 0.217],
+    "lr_pos_ge10": 2.13, "lr_neg_ge10": 0.54,
+    "endo_auc": 0.656, "endo_auc_ci": [0.551, 0.763], "endo_sens_ge10": 71.8, "endo_spec_ge10": 56.2
+  },
+
+  "treatment": {
+    "source": "原稿2.5节及表5",
+    "gerdq4_pre": [6.11, 1.84], "gerdq4_post": [4.46, 2.04], "delta": [1.65, 1.67], "delta_ci": [1.31, 1.99],
+    "wilcoxon_W": 0, "paired_t": 10.01,
+    "improved": 72, "not_improved": 31, "post_le1": 8,
+    "total_pre": [10.06, 2.02], "total_post": [8.36, 2.40], "total_delta": [1.70, 1.76],
+    "wl": [1.62, 1.22], "wl_median": 1.5, "wl_range": [-1, 5], "wl_pct": [1.95, 1.47],
+    "rs_wl_delta": [0.248, 0.012], "rs_wlpct_delta": [0.294, 0.003],
+    "delta_by_group_mean": [1.54, 1.81, 1.86], "delta_by_group_sd": [1.57, 1.81, 1.92], "delta_by_group_H": 0.29, "delta_by_group_P": 0.866
+  },
+
+  "response": {
+    "source": "原稿2.6节及表6（改善组n=72，未改善组n=31）",
+    "n": [72, 31],
+    "age": [[51.53, 11.81], [51.06, 12.74], "U=1152", 0.798],
+    "bmi": [[30.53, 3.07], [31.38, 4.60], "U=1042.5", 0.600],
+    "weight": [[83.79, 10.99], [87.63, 12.90], "U=968", 0.288],
+    "gerdq4": [[6.28, 1.75], [5.71, 1.99], "U=1297", 0.188],
+    "gerdq_total": [[10.19, 2.09], [9.74, 1.84], "U=1251", 0.328],
+    "wl": [[1.86, 1.30], [1.08, 0.80], "U=1513", 0.003],
+    "wl_pct": [[2.26, 1.55], [1.23, 0.92], "U=1583", 0.001],
+    "male": [41, 14, 0.78, 0.377],
+    "smoke_drink": [26, 8, 0.63, 0.429],
+    "endo_abnormal": [33, 6, 5.38, 0.020],
+    "gerd": [59, 20, 2.77, 0.096]
+  },
+
+  "logistic": {
+    "source": "原稿表7（后退法最终模型）",
+    "candidates": 8,
+    "terms": {
+      "减重幅度（每1 kg）": [0.597, 0.224, 1.82, 1.17, 2.82, 0.008],
+      "胃镜异常（是/否）": [1.164, 0.533, 3.20, 1.13, 9.10, 0.029],
+      "常数项": [-0.379, 0.392, null, null, null, 0.334]
+    },
+    "apparent_auc": 0.728, "optimism": 0.014, "corrected_auc": 0.714, "reported_auc_ci": [0.705, 0.730],
+    "brier": 0.185, "calibration_slope": 1.00
+  }
+}
